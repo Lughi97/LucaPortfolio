@@ -1,1 +1,4 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
+# Keep ONLY these in Git LFS
+Videos/SbkVideos/ducatifull.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/BalanceBall1-CxATXDMX.mp4 filter=lfs diff=lfs merge=lfs -text
+images/games/BalanceGame/BalanceBall1.mp4 filter=lfs diff=lfs merge=lfs -text
