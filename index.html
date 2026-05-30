@@ -1,18 +1,94 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/LucaPortfolio/assets/Music-Headphones-Human--Streamline-Pixel-BaAFwRZ1.png">
-    <link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Russo+One&display=swap"
-  rel="stylesheet"
-/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luca Portfolio</title>
-    <script type="module" crossorigin src="/LucaPortfolio/assets/index-Du6SMfZd.js"></script>
-    <link rel="stylesheet" crossorigin href="/LucaPortfolio/assets/index-DZU6IddU.css">
+    ...
+    <script type="module" crossorigin src="/LucaPortfolio/assets/index-P37ekwbc.js"></script>
+    <link rel="stylesheet" crossorigin href="/LucaPortfolio/assets/index-vup-ZAQ_.css">
   </head>
   <body>
+    <div id="preloader">
+  <div class="follow-the-leader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+        
+      </div>
+    </div>
+
     <div id="app"></div>
+
+   
+
+    <style>
+      #preloader {
+        position: fixed;
+        inset: 0;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      .text-center {
+        text-align: center;
+      }
+     /**
+  * follow-the-leader
+  *
+  * @author jh3y - jheytompkins.com
+*/
+@-webkit-keyframes follow-the-leader {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(-200%);
+            transform: rotate(0deg) translateY(-200%); }
+  60%,
+  100% {
+    -webkit-transform: rotate(360deg) translateY(-200%);
+            transform: rotate(360deg) translateY(-200%); } }
+@keyframes follow-the-leader {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(-200%);
+            transform: rotate(0deg) translateY(-200%); }
+  60%,
+  100% {
+    -webkit-transform: rotate(360deg) translateY(-200%);
+            transform: rotate(360deg) translateY(-200%); } }
+
+  .follow-the-leader div {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    -webkit-animation: follow-the-leader 1.875s infinite backwards;
+            animation: follow-the-leader 1.875s infinite backwards;
+    background-color: #ffffff;
+    border-radius: 100%;
+    
+    position: absolute;
+    }
+    .follow-the-leader div:nth-child(1) {
+      -webkit-animation-delay: 0.15s;
+              animation-delay: 0.15s;
+      background-color: rgba(255, 255, 255, 0.9); }
+    .follow-the-leader div:nth-child(2) {
+      -webkit-animation-delay: 0.3s;
+              animation-delay: 0.3s;
+      background-color: rgba(255, 255, 255, 0.8); }
+    .follow-the-leader div:nth-child(3) {
+      -webkit-animation-delay: 0.45s;
+              animation-delay: 0.45s;
+      background-color: rgba(255, 255, 255, 0.7); }
+    .follow-the-leader div:nth-child(4) {
+      -webkit-animation-delay: 0.6s;
+              animation-delay: 0.6s;
+      background-color: rgba(255, 255, 255, 0.6); }
+    .follow-the-leader div:nth-child(5) {
+      -webkit-animation-delay: 0.75s;
+              animation-delay: 0.75s;
+      background-color: rgba(255, 255, 255, 0.5); }
+    </style>
   </body>
 </html>
