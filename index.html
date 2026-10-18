@@ -1,101 +1,33 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/LucaPortfolio/assets/Music-Headphones-Human--Streamline-Pixel-BaAFwRZ1.png">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Luca Portfolio</title>
-    <script type="module" crossorigin src="/LucaPortfolio/assets/index-BP0VUAXI.js"></script>
-    <link rel="stylesheet" crossorigin href="/LucaPortfolio/assets/index-D2rp5zOe.css">
+    <meta name="description" content="This is my portfolio that I created with react from scratch. The idea is to list 
+    all the project and games done in my career and also to be kept up to date depending on my career path">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/LucaPortfolio/IconPage.svg" />
+    <link rel="preload"  href="/LucaPortfolio/fonts/russo-one-latin-400-normal.woff2"
+        as="font" type="font/woff2" crossorigin/>
+      <link rel="preload"  href="/LucaPortfolio/fonts/inter-latin-400-normal.woff2"
+        as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" as="image"  href="/LucaPortfolio/Videos/posterImages/Sbk/DucatiBarc.webp" fetchpriority="high" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LucaPortfolio</title>
+    <script type="module" crossorigin src="/LucaPortfolio/assets/index-BWZ1vk-Y.js"></script>
+    <link rel="modulepreload" crossorigin href="/LucaPortfolio/assets/rolldown-runtime-CbXtAM7H.js">
+    <link rel="modulepreload" crossorigin href="/LucaPortfolio/assets/react-vendor-DjX0U0Iu.js">
+    <link rel="modulepreload" crossorigin href="/LucaPortfolio/assets/router-vendor-CFM_xMG1.js">
+    <link rel="modulepreload" crossorigin href="/LucaPortfolio/assets/motion-vendor-BP_godTv.js">
+    <link rel="stylesheet" crossorigin href="/LucaPortfolio/assets/index-DEUsBvrt.css">
   </head>
   <body>
-    <div id="preloader">
-  <div class="follow-the-leader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
-        
-      </div>
-    </div>
-
-    <div id="app"></div>
-
-   
-
-    <style>
-      #preloader {
-        position: fixed;
-        inset: 0;
-        background: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 9999;
-      }
-      .text-center {
-        text-align: center;
-      }
-     /**
-  * follow-the-leader
-  *
-  * @author jh3y - jheytompkins.com
-*/
-@-webkit-keyframes follow-the-leader {
-  0% {
-    -webkit-transform: rotate(0deg) translateY(-200%);
-            transform: rotate(0deg) translateY(-200%); }
-  60%,
-  100% {
-    -webkit-transform: rotate(360deg) translateY(-200%);
-            transform: rotate(360deg) translateY(-200%); } }
-@keyframes follow-the-leader {
-  0% {
-    -webkit-transform: rotate(0deg) translateY(-200%);
-            transform: rotate(0deg) translateY(-200%); }
-  60%,
-  100% {
-    -webkit-transform: rotate(360deg) translateY(-200%);
-            transform: rotate(360deg) translateY(-200%); } }
-
-  .follow-the-leader div {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    -webkit-animation: follow-the-leader 1.875s infinite backwards;
-            animation: follow-the-leader 1.875s infinite backwards;
-    background-color: #ffffff;
-    border-radius: 100%;
     
-    position: absolute;
-    }
-    .follow-the-leader div:nth-child(1) {
-      -webkit-animation-delay: 0.15s;
-              animation-delay: 0.15s;
-      background-color: rgba(255, 255, 255, 0.9); }
-    .follow-the-leader div:nth-child(2) {
-      -webkit-animation-delay: 0.3s;
-              animation-delay: 0.3s;
-      background-color: rgba(255, 255, 255, 0.8); }
-    .follow-the-leader div:nth-child(3) {
-      -webkit-animation-delay: 0.45s;
-              animation-delay: 0.45s;
-      background-color: rgba(255, 255, 255, 0.7); }
-    .follow-the-leader div:nth-child(4) {
-      -webkit-animation-delay: 0.6s;
-              animation-delay: 0.6s;
-      background-color: rgba(255, 255, 255, 0.6); }
-    .follow-the-leader div:nth-child(5) {
-      -webkit-animation-delay: 0.75s;
-              animation-delay: 0.75s;
-      background-color: rgba(255, 255, 255, 0.5); }
-    </style>
+    <div id="root"> 
+      
+       <div class="loading">
+      <div class="loading-spinner"><img src="/LucaPortfolio/Images/LucaGhisiLogo.svg" alt="Hello image background" class="logoback"/></div>
+    </div>
+    </div>
   </body>
 </html>
+
+<style>.logoback{width:80%;display:flex}.loading{z-index:1;background:oklch(20.5% 0 0);justify-content:center;align-items:center;display:flex;position:fixed;inset:0}.loading-spinner{box-sizing:border-box;border-radius:50%;justify-content:center;align-items:center;width:50%;height:50%;padding:10px;animation:2.5s ease-in-out infinite pulse;display:flex}.logoback{object-fit:contain;width:100%;height:100%;display:block}@keyframes pulse{0%,to{opacity:.4;transform:scale(.9)}50%{opacity:1;transform:scale(1.15)}}@-webkit-keyframes pulse{0%,to{opacity:.4;-webkit-transform:scale(.9)}50%{opacity:1;-webkit-transform:scale(1.15)}}</style>
